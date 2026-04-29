@@ -4,6 +4,7 @@ This is a console-based Hangman game developed in C language as a Data Structure
 
 The project uses multiple data structures such as Binary Search Tree (BST), Stack, Linked List, and Graph.
 
+
 Main Features:
 
 ->Random word selection from a Binary Search Tree.
@@ -19,6 +20,8 @@ Main Features:
 ->Related word system using Word Relationship Graph.
 
 ->Leaderboard system with file handling.
+
+
 
 Data Structures Used:
 
@@ -38,11 +41,15 @@ Stores relationship between words. After guessing a word, player can choose a re
 
 Used to store leaderboard details in sorted order.
 
+
+
 Files Used:
 
 ->leaderboard.txt
 
 Stores player names and scores permanently.
+
+
 
 Game Menu Options:
 
