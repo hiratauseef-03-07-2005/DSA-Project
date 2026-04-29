@@ -6,46 +6,52 @@ The project uses multiple data structures such as Binary Search Tree (BST), Stac
 
 Main Features:
 
-Random word selection from a Binary Search Tree.
+->Random word selection from a Binary Search Tree.
 
-Hangman drawing display based on wrong guesses.
+->Hangman drawing display based on wrong guesses.
 
-Guess tracking using Stack.
+->Guess tracking using Stack.
 
-Score system (+2 for correct guess, -1 for wrong guess).
+->Score system (+2 for correct guess, -1 for wrong guess).
 
-Clue system (player can enter '?' to view clue).
+->Clue system (player can enter '?' to view clue).
 
-Related word system using Word Relationship Graph.
+->Related word system using Word Relationship Graph.
 
-Leaderboard system with file handling.
+->Leaderboard system with file handling.
 
-Data Structures Used
+Data Structures Used:
 
-Binary Search Tree (BST)
-Stores words and their clues
-Used to insert and search words
-Random word is selected from BST
-Stack
-Stores guessed letters
-Prevents guessing the same letter again
-Graph (Adjacency List)
-Stores relationship between words
-After guessing a word, player can choose a related word
-Linked List
-Used to store leaderboard details in sorted order
+->Binary Search Tree (BST):
 
-Files Used
+Stores words and their clues. Used to insert and search words. Random word is selected from BST.
 
-leaderboard.txt
+->Stack:
 
-Stores player names and scores permanently
+Stores guessed letters. Prevents guessing the same letter again.
 
-Game Menu Options
+->Graph (Adjacency List):
 
-Start Game
-Show Leaderboard
-Exit Game
+Stores relationship between words. After guessing a word, player can choose a related word.
+
+->Linked List:
+
+Used to store leaderboard details in sorted order.
+
+Files Used:
+
+->leaderboard.txt
+
+Stores player names and scores permanently.
+
+Game Menu Options:
+
+1. Start Game
+   
+2. Show Leaderboard
+   
+3. Exit Game
 
 Author
+
 Hira Tauseef
